@@ -1,0 +1,15 @@
+{
+    "validCredentials": {
+        "username": "admin",
+        "password": "password123"
+    },
+    "wrongUsername": {
+        "username": "fshskjfhks",
+        "password": "password123"
+    },
+    "wrongPassword": {
+        "username": "admin",
+        "password": "fdfdfdfd"
+    },
+    "emptyCredentials": {}
+}
