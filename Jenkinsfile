@@ -70,7 +70,7 @@ pipeline {
                     echo "Running Playwright tests..."
                     echo "Spec: ${params.SPEC_FILE}"
 
-                    def testCommand = "npx playwright test tests/auth.spec.ts"
+                    def testCommand = "npx playwright test tests/api.spec.ts"
 
                     if (params.SPEC_FILE != 'all') {
                         testCommand += " ${params.SPEC_FILE}"
